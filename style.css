@@ -207,8 +207,12 @@ video{
 }
 
 @media (min-width: 320px) and (max-width: 500px){
+    .pri{
+        margin: 50px 0px;
+    }
+    
     .pri video{
-        width: 350px;
+        width: 100%;
         margin-top: 39px;
     }
     #logo{
@@ -231,15 +235,16 @@ video{
     text-align: center;
     flex-direction: column;
     gap: 10px;
-    margin: 80px 49px;
+    margin: 80px auto;
     border-radius: 18px;
-    padding: 10px;
+    padding: 5px;
+    width: 100%;
 }
 #infos h1{
-    font-size: 13px;
+    font-size: 23px;
 }
 #infos p{
-    font-size: 9px;
+    font-size: 15px;
 }
 #grafico{
     margin: 10px 0px;
@@ -259,5 +264,39 @@ video{
 }
 #my{
     width: 160px;
+}
+}
+
+@media (min-width: 510px) and (max-width: 900px){
+   .crias img{
+   width: 180px;
+}
+.pri h1{
+    font-size: 30px;
+    line-height: 37px;
+}
+.pri video{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #igao{
+    height: 180px;
+    width: 300px;
+}
+#oo{
+    font-size: 20px;
+}
+#grafico{
+    margin: 10px 10px;
+}
+#infos{
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 80px auto;
+    border-radius: 18px;
+    padding: 5px;
+    width: 100%;
 }
 }
