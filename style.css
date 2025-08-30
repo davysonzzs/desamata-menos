@@ -27,7 +27,6 @@ body{
 
 #navbar.visivel {
   transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes slid{
@@ -126,33 +125,22 @@ video{
 
 #grafico{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
     background-color: white;
     margin: 10px 500px;
-    flex-direction: column;
-    align-items: center;
+    border-radius: 12px;
 }
 
-#grafico h1{
-    text-align: center;
-    align-self: center;
+#temp{
+    font-size: 25px;
+    font-family: "Lexend", sans-serif;
 }
 
-#igao{
-    height: 500px;
-    width: 900px;
-}
-
-.oo{
-    margin-top: -27px;
-    opacity: 0;
-    transform: translateY(-27px);
-    transition: opacity 500ms ease, transform 500ms ease;
-}
-
-.oo.hob{
-    opacity: 1;
-    transform: translateY(0);
+#temp2{
+    font-size: 18px;
+    font-family: "Lexend", sans-serif;
 }
 
 #video{
@@ -267,7 +255,7 @@ video{
 }
 }
 
-@media (min-width: 510px) and (max-width: 900px){
+@media (min-width: 510px) and (max-width: 1450px){
    .crias img{
    width: 180px;
 }

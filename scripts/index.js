@@ -1,15 +1,5 @@
 //JS PARA ANIMAÇOES
 
-const gra = document.getElementById('igao')
-const tst = document.getElementById('oo')
-
-gra.addEventListener("mouseover", () =>{
-    tst.classList.add('hob')
-})
-gra.addEventListener('mouseleave', () =>{
-    tst.classList.remove('hob')
-})
-
 document.addEventListener("DOMContentLoaded", function () {
   const elementos = document.querySelectorAll('.oculto');
 
